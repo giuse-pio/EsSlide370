@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EsSlide370.Scuola">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAACIAA=</HashCode>
+      <FileName>Scuola.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Insegnante" />
+      <Property Name="Studente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EsSlide370.Insegnante">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Insegnante.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Materie" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EsSlide370.Studente">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAA=</HashCode>
+      <FileName>Studente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Voti" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EsSlide370.Materie">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Materie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EsSlide370.Voti">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEQAQAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Voti.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Materie" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EsSlide370.Persona">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
