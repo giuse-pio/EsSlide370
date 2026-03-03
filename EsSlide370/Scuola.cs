@@ -39,6 +39,11 @@ namespace EsSlide370
                     somma += voto.Valore;
                     contatore++;
                 }
+                if(contatore == 0)
+                {
+                    Console.WriteLine("Non ci sono voti per questo mese");
+                    return;
+                }
                 media = somma / contatore;
                 Console.WriteLine(media);
             }
