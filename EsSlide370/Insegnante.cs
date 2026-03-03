@@ -9,13 +9,5 @@ namespace EsSlide370
     public class Insegnante : Persona
     {
         public List<Materie> Materia { get; set; } = new();
-
-        public Materie Materie
-        {
-            get => default;
-            set
-            {
-            }
-        }
     }
 }

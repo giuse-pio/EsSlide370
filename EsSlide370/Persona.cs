@@ -8,7 +8,7 @@ namespace EsSlide370
     public class Persona
     {
         public string Nome { get; set; }
-        public string Cognoome { get; set; }
+        public string Cognome { get; set; }
         public DateTime DataDiNascita { get; set; }
     }
 }

@@ -3,33 +3,33 @@
   <Class Name="EsSlide370.Scuola">
     <Position X="4.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAACIAA=</HashCode>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAIAA=</HashCode>
       <FileName>Scuola.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Insegnante" />
-      <Property Name="Studente" />
-    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Insegnanti" />
+      <Property Name="Studenti" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="EsSlide370.Insegnante">
     <Position X="2.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Insegnante.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Materie" />
-    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Materia" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="EsSlide370.Studente">
     <Position X="6.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>Studente.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Voti" />
-    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Voto" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="EsSlide370.Materie">
     <Position X="2.5" Y="4" Width="1.5" />
@@ -51,7 +51,7 @@
   <Class Name="EsSlide370.Persona">
     <Position X="4.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <HashCode>AAAAAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
       <FileName>Persona.cs</FileName>
     </TypeIdentifier>
   </Class>
